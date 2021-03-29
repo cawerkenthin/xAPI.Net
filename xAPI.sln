@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xAPI", "xAPI.Net.csproj", "{27D0FCA1-E869-440C-9D16-F62D7A068C53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xAPI.Net", "xAPI.Net.csproj", "{5B401084-9E21-4EFF-89A4-16BC280B0FC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,14 +12,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{27D0FCA1-E869-440C-9D16-F62D7A068C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27D0FCA1-E869-440C-9D16-F62D7A068C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27D0FCA1-E869-440C-9D16-F62D7A068C53}.Documentation|Any CPU.ActiveCfg = Documentation|Any CPU
-		{27D0FCA1-E869-440C-9D16-F62D7A068C53}.Documentation|Any CPU.Build.0 = Documentation|Any CPU
-		{27D0FCA1-E869-440C-9D16-F62D7A068C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27D0FCA1-E869-440C-9D16-F62D7A068C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B401084-9E21-4EFF-89A4-16BC280B0FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B401084-9E21-4EFF-89A4-16BC280B0FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B401084-9E21-4EFF-89A4-16BC280B0FC9}.Documentation|Any CPU.ActiveCfg = Documentation|Any CPU
+		{5B401084-9E21-4EFF-89A4-16BC280B0FC9}.Documentation|Any CPU.Build.0 = Documentation|Any CPU
+		{5B401084-9E21-4EFF-89A4-16BC280B0FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B401084-9E21-4EFF-89A4-16BC280B0FC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CF0A456-8B0C-42C7-BE26-72DAE157F067}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/riscinc
+		SccProjectUniqueName0 = xAPI.Net.csproj
+		SccProjectName0 = .
+		SccAuxPath0 = https://dev.azure.com/riscinc
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 	EndGlobalSection
 EndGlobal

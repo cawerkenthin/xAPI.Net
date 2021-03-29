@@ -46,6 +46,9 @@ namespace TinCan
         public StatementsQueryResultFormat format { get; set; }
         public Nullable<bool> ascending { get; set; }
 
+        // CAW 3/26/2021
+        public string statementId { get; set; }
+
         public StatementsQuery() { }
 
         public Dictionary<string, string> ToParameterMap(TCAPIVersion version)
@@ -95,6 +98,12 @@ namespace TinCan
             if (ascending != null)
             {
                 result.Add("ascending", ascending.Value.ToString());
+            }
+
+            // CAW 3/26/2021
+            if (!string.IsNullOrWhiteSpace(statementId))
+            {
+                result.Add("statementId", statementId);
             }
 
             return result;

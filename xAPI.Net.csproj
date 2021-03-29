@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{27D0FCA1-E869-440C-9D16-F62D7A068C53}</ProjectGuid>
+    <ProjectGuid>{5B401084-9E21-4EFF-89A4-16BC280B0FC9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TinCan</RootNamespace>
